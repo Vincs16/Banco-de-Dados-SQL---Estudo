@@ -13,7 +13,8 @@
 - **SELECT MAX(`<coluna>`) FROM `<tabela>`;** → Retorna o valor máximo de uma coluna.
 - **SELECT `<coluna>` FROM `<tabela>`;** → Retorna a coluna da tabela. O astericos (*) retorna todas as colunas da tabela.
 - **SELECT `<coluna1>`, `<coluna2>` FROM `<tabela>` ORDER BY `<coluna2>` ASC;** → Retorna a coluna1 e coluna2 ordernada pela coluna2. O asterisco (*) retorna todos as colunas de tabela.
-- **SHOW INDEX FROM `<tabela>`;** → Mostra os índices da tabela
+- **SHOW INDEX FROM `<tabela>`;** → Mostra os índices da tabela.
+- **SELECT `<coluna>` FROM `<tabelea>` WHERE = `<valor>`;** → Filtra os campos a partir do valor
 
 ## 🗑️ Comandos de Exclusão
 - **DROP DATABASE IF EXISTS `<nome>`** → Exclui um banco de dados (*IF EXISTS* é opcional).
